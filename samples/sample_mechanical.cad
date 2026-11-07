@@ -1,0 +1,896 @@
+{
+  "version": "1.0",
+  "active_layer": "0",
+  "layers": [
+    {
+      "name": "0",
+      "color": "#FFFFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.35,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "WALLS",
+      "color": "#00FFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.5,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "DOORS",
+      "color": "#00FF00",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "WINDOWS",
+      "color": "#00AAFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "DIMENSIONS",
+      "color": "#FF3333",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "TEXT",
+      "color": "#FFFFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "CENTERLINE",
+      "color": "#FF00FF",
+      "line_type": "CENTER",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "HIDDEN",
+      "color": "#808080",
+      "line_type": "HIDDEN",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "GEAR_TEETH",
+      "color": "#00FFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.5,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "HUB",
+      "color": "#FFFF00",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.35,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "HOLES",
+      "color": "#00FF00",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.35,
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "entities": [
+    {
+      "type": "LINE",
+      "id": "F42FC849",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -160.0,
+        0.0
+      ],
+      "end": [
+        160.0,
+        0.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "CB49FDC5",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        0.0,
+        -160.0
+      ],
+      "end": [
+        0.0,
+        160.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "EF529468",
+      "layer": "HUB",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "radius": 20.0
+    },
+    {
+      "type": "RECT",
+      "id": "2DB987F1",
+      "layer": "HUB",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        -4.0,
+        18.0
+      ],
+      "p2": [
+        4.0,
+        25.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "C543305E",
+      "layer": "HUB",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "radius": 40.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "B788BF17",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CENTER",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "radius": 70.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "73A5455B",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        70.0,
+        0.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "71C1E6DC",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        60.0,
+        0.0
+      ],
+      "end": [
+        80.0,
+        0.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "4AF0CB61",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        70.0,
+        -10.0
+      ],
+      "end": [
+        70.0,
+        10.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "B94C1ED8",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        35.00000000000001,
+        60.6217782649107
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "E52EF660",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        25.000000000000007,
+        60.6217782649107
+      ],
+      "end": [
+        45.00000000000001,
+        60.6217782649107
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "FA7312B7",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        35.00000000000001,
+        50.6217782649107
+      ],
+      "end": [
+        35.00000000000001,
+        70.6217782649107
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "174B4F40",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        -34.999999999999986,
+        60.62177826491071
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "CA2D10B0",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -44.999999999999986,
+        60.62177826491071
+      ],
+      "end": [
+        -24.999999999999986,
+        60.62177826491071
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "7ED6E97D",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -34.999999999999986,
+        50.62177826491071
+      ],
+      "end": [
+        -34.999999999999986,
+        70.62177826491072
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "1E0BDF32",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        -70.0,
+        8.572527594031473e-15
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "B9E64673",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -80.0,
+        8.572527594031473e-15
+      ],
+      "end": [
+        -60.0,
+        8.572527594031473e-15
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "5AA47EA1",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -70.0,
+        -9.999999999999991
+      ],
+      "end": [
+        -70.0,
+        10.000000000000009
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "C6DBE6DE",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        -35.00000000000003,
+        -60.621778264910695
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "9F7AA6EE",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -45.00000000000003,
+        -60.621778264910695
+      ],
+      "end": [
+        -25.00000000000003,
+        -60.621778264910695
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "C1A33981",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        -35.00000000000003,
+        -70.62177826491069
+      ],
+      "end": [
+        -35.00000000000003,
+        -50.621778264910695
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "000F112F",
+      "layer": "HOLES",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        35.00000000000001,
+        -60.6217782649107
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "LINE",
+      "id": "BB472AFE",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        25.000000000000007,
+        -60.6217782649107
+      ],
+      "end": [
+        45.00000000000001,
+        -60.6217782649107
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "04B599C7",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        35.00000000000001,
+        -70.6217782649107
+      ],
+      "end": [
+        35.00000000000001,
+        -50.6217782649107
+      ]
+    },
+    {
+      "type": "POLYLINE",
+      "id": "8C472C28",
+      "layer": "GEAR_TEETH",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "points": [
+        [
+          105.0,
+          0.0
+        ],
+        [
+          124.614666716641,
+          9.807386965980617
+        ],
+        [
+          123.46104257439222,
+          19.554308130028858
+        ],
+        [
+          102.09884164175604,
+          24.511763204870068
+        ],
+        [
+          99.86093421099112,
+          32.44678440936948
+        ],
+        [
+          115.48494156391084,
+          47.835429045636225
+        ],
+        [
+          111.37581552354598,
+          56.748812467443344
+        ],
+        [
+          89.52721725717969,
+          54.862349295174624
+        ],
+        [
+          84.94678440936949,
+          61.71745149070968
+        ],
+        [
+          95.05074570000387,
+          81.18100604127295
+        ],
+        [
+          88.38834764831844,
+          88.38834764831844
+        ],
+        [
+          68.19204507466928,
+          79.84262638800325
+        ],
+        [
+          61.71745149070968,
+          84.94678440936949
+        ],
+        [
+          65.31232058949361,
+          106.58002054426152
+        ],
+        [
+          56.74881246744335,
+          111.37581552354597
+        ],
+        [
+          40.18176039833443,
+          97.0073509136851
+        ],
+        [
+          32.446784409369485,
+          99.86093421099112
+        ],
+        [
+          29.180670481988184,
+          121.54624004970957
+        ],
+        [
+          19.554308130028865,
+          123.46104257439222
+        ],
+        [
+          8.238205051423725,
+          104.67632004197844
+        ],
+        [
+          6.429395695523604e-15,
+          105.0
+        ],
+        [
+          -9.807386965980609,
+          124.614666716641
+        ],
+        [
+          -19.55430813002885,
+          123.46104257439222
+        ],
+        [
+          -24.51176320487006,
+          102.09884164175605
+        ],
+        [
+          -32.44678440936947,
+          99.86093421099113
+        ],
+        [
+          -47.83542904563622,
+          115.48494156391084
+        ],
+        [
+          -56.748812467443344,
+          111.37581552354598
+        ],
+        [
+          -54.862349295174624,
+          89.52721725717969
+        ],
+        [
+          -61.71745149070967,
+          84.94678440936949
+        ],
+        [
+          -81.18100604127294,
+          95.05074570000387
+        ],
+        [
+          -88.38834764831843,
+          88.38834764831844
+        ],
+        [
+          -79.84262638800325,
+          68.1920450746693
+        ],
+        [
+          -84.94678440936947,
+          61.71745149070969
+        ],
+        [
+          -106.58002054426152,
+          65.31232058949361
+        ],
+        [
+          -111.37581552354597,
+          56.74881246744336
+        ],
+        [
+          -97.0073509136851,
+          40.18176039833444
+        ],
+        [
+          -99.86093421099112,
+          32.446784409369485
+        ],
+        [
+          -121.54624004970957,
+          29.18067048198819
+        ],
+        [
+          -123.46104257439221,
+          19.554308130028872
+        ],
+        [
+          -104.67632004197844,
+          8.238205051423732
+        ],
+        [
+          -105.0,
+          1.2858791391047208e-14
+        ],
+        [
+          -124.614666716641,
+          -9.807386965980601
+        ],
+        [
+          -123.46104257439222,
+          -19.55430813002884
+        ],
+        [
+          -102.09884164175605,
+          -24.511763204870054
+        ],
+        [
+          -99.86093421099112,
+          -32.44678440936951
+        ],
+        [
+          -115.48494156391082,
+          -47.83542904563626
+        ],
+        [
+          -111.37581552354595,
+          -56.748812467443386
+        ],
+        [
+          -89.52721725717967,
+          -54.86234929517466
+        ],
+        [
+          -84.94678440936949,
+          -61.71745149070967
+        ],
+        [
+          -95.05074570000389,
+          -81.18100604127294
+        ],
+        [
+          -88.38834764831846,
+          -88.38834764831843
+        ],
+        [
+          -68.19204507466934,
+          -79.84262638800321
+        ],
+        [
+          -61.71745149070969,
+          -84.94678440936947
+        ],
+        [
+          -65.31232058949357,
+          -106.58002054426154
+        ],
+        [
+          -56.748812467443365,
+          -111.37581552354597
+        ],
+        [
+          -40.18176039833448,
+          -97.00735091368509
+        ],
+        [
+          -32.44678440936949,
+          -99.86093421099112
+        ],
+        [
+          -29.18067048198814,
+          -121.54624004970958
+        ],
+        [
+          -19.55430813002888,
+          -123.46104257439221
+        ],
+        [
+          -8.238205051423785,
+          -104.67632004197844
+        ],
+        [
+          -1.928818708657081e-14,
+          -105.0
+        ],
+        [
+          9.807386965980651,
+          -124.614666716641
+        ],
+        [
+          19.554308130028833,
+          -123.46104257439222
+        ],
+        [
+          24.51176320487,
+          -102.09884164175607
+        ],
+        [
+          32.44678440936946,
+          -99.86093421099113
+        ],
+        [
+          47.83542904563625,
+          -115.48494156391082
+        ],
+        [
+          56.74881246744333,
+          -111.375815523546
+        ],
+        [
+          54.862349295174575,
+          -89.52721725717971
+        ],
+        [
+          61.71745149070966,
+          -84.9467844093695
+        ],
+        [
+          81.18100604127298,
+          -95.05074570000386
+        ],
+        [
+          88.38834764831842,
+          -88.38834764831846
+        ],
+        [
+          79.8426263880032,
+          -68.19204507466934
+        ],
+        [
+          84.94678440936947,
+          -61.717451490709706
+        ],
+        [
+          106.58002054426153,
+          -65.31232058949358
+        ],
+        [
+          111.37581552354597,
+          -56.74881246744337
+        ],
+        [
+          97.00735091368509,
+          -40.18176039833449
+        ],
+        [
+          99.86093421099112,
+          -32.446784409369506
+        ],
+        [
+          121.54624004970958,
+          -29.180670481988148
+        ],
+        [
+          123.46104257439221,
+          -19.554308130028886
+        ],
+        [
+          104.67632004197844,
+          -8.23820505142379
+        ]
+      ],
+      "is_closed": true
+    },
+    {
+      "type": "CIRCLE",
+      "id": "5CD514A7",
+      "layer": "CENTERLINE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CENTER",
+      "center": [
+        0.0,
+        0.0
+      ],
+      "radius": 115.0
+    },
+    {
+      "type": "DIMENSION",
+      "id": "B580F71E",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        -20.0,
+        0.0
+      ],
+      "p2": [
+        20.0,
+        0.0
+      ],
+      "offset": -25.0,
+      "text": "\u00d8 40.0 H7"
+    },
+    {
+      "type": "DIMENSION",
+      "id": "3F8B2BB2",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        -70.0,
+        0.0
+      ],
+      "p2": [
+        70.0,
+        0.0
+      ],
+      "offset": -50.0,
+      "text": "PCD \u00d8 140.0"
+    },
+    {
+      "type": "DIMENSION",
+      "id": "ECF69EBA",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        -125.0,
+        0.0
+      ],
+      "p2": [
+        125.0,
+        0.0
+      ],
+      "offset": 145.0,
+      "text": "Tip \u00d8 250.0 mm"
+    },
+    {
+      "type": "TEXT",
+      "id": "DCE7FE90",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "SPUR GEAR 20-TEETH MODULE 6",
+      "pos": [
+        -100.0,
+        -180.0
+      ],
+      "height": 11.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "60C923EC",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "MATERIAL: 4140 ALLOY STEEL (HEAT TREATED)",
+      "pos": [
+        -115.0,
+        -200.0
+      ],
+      "height": 9.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "78D381DB",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "6X \u00d812 MOUNTING HOLES EQ. SPACED ON \u00d8140 PCD",
+      "pos": [
+        -130.0,
+        -218.0
+      ],
+      "height": 8.0,
+      "rotation_deg": 0.0
+    }
+  ]
+}

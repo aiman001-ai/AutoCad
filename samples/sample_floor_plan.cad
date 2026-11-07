@@ -1,0 +1,752 @@
+{
+  "version": "1.0",
+  "active_layer": "0",
+  "layers": [
+    {
+      "name": "0",
+      "color": "#FFFFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "WALLS",
+      "color": "#00FFFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.5,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "DOORS",
+      "color": "#00FF00",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "WINDOWS",
+      "color": "#00AAFF",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "DIMENSIONS",
+      "color": "#FF3333",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "TEXT",
+      "color": "#FFFF00",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.25,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "CENTERLINE",
+      "color": "#FF00FF",
+      "line_type": "CENTER",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "HIDDEN",
+      "color": "#808080",
+      "line_type": "HIDDEN",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    },
+    {
+      "name": "FURNITURE",
+      "color": "#808080",
+      "line_type": "CONTINUOUS",
+      "line_weight": 0.18,
+      "visible": true,
+      "locked": false
+    }
+  ],
+  "entities": [
+    {
+      "type": "POLYLINE",
+      "id": "3A9D472A",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          400.0,
+          0.0
+        ],
+        [
+          400.0,
+          300.0
+        ],
+        [
+          0.0,
+          300.0
+        ]
+      ],
+      "is_closed": true
+    },
+    {
+      "type": "POLYLINE",
+      "id": "6DAD1132",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "points": [
+        [
+          10.0,
+          10.0
+        ],
+        [
+          390.0,
+          10.0
+        ],
+        [
+          390.0,
+          290.0
+        ],
+        [
+          10.0,
+          290.0
+        ]
+      ],
+      "is_closed": true
+    },
+    {
+      "type": "LINE",
+      "id": "B80C7C9E",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        10.0,
+        180.0
+      ],
+      "end": [
+        390.0,
+        180.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "E43DAB87",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        10.0,
+        190.0
+      ],
+      "end": [
+        390.0,
+        190.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "22687C84",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        220.0,
+        190.0
+      ],
+      "end": [
+        220.0,
+        290.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "AC16132C",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        240.0,
+        10.0
+      ],
+      "end": [
+        240.0,
+        180.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "5B2C99BE",
+      "layer": "WALLS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        240.0,
+        120.0
+      ],
+      "end": [
+        390.0,
+        120.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "70D68342",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        20.0,
+        10.0
+      ],
+      "end": [
+        20.0,
+        45.0
+      ]
+    },
+    {
+      "type": "ARC",
+      "id": "F06A54DA",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        20.0,
+        10.0
+      ],
+      "radius": 35.0,
+      "start_angle": 0.0,
+      "end_angle": 90.0
+    },
+    {
+      "type": "LINE",
+      "id": "9529C241",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        30.0,
+        190.0
+      ],
+      "end": [
+        65.0,
+        190.0
+      ]
+    },
+    {
+      "type": "ARC",
+      "id": "D25E6E0B",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        30.0,
+        190.0
+      ],
+      "radius": 35.0,
+      "start_angle": 0.0,
+      "end_angle": 90.0
+    },
+    {
+      "type": "LINE",
+      "id": "E6F5FC6F",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        230.0,
+        190.0
+      ],
+      "end": [
+        265.0,
+        190.0
+      ]
+    },
+    {
+      "type": "ARC",
+      "id": "35524EB2",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        230.0,
+        190.0
+      ],
+      "radius": 35.0,
+      "start_angle": 0.0,
+      "end_angle": 90.0
+    },
+    {
+      "type": "LINE",
+      "id": "FCE2B962",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        240.0,
+        80.0
+      ],
+      "end": [
+        240.0,
+        110.0
+      ]
+    },
+    {
+      "type": "ARC",
+      "id": "508B9A8F",
+      "layer": "DOORS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        240.0,
+        80.0
+      ],
+      "radius": 30.0,
+      "start_angle": 90.0,
+      "end_angle": 180.0
+    },
+    {
+      "type": "RECT",
+      "id": "B41F3906",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        100.0,
+        5.0
+      ],
+      "p2": [
+        180.0,
+        15.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "81F59A3C",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        100.0,
+        10.0
+      ],
+      "end": [
+        180.0,
+        10.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "264CC389",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        80.0,
+        285.0
+      ],
+      "p2": [
+        150.0,
+        295.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "E288D4CF",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        80.0,
+        290.0
+      ],
+      "end": [
+        150.0,
+        290.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "3DC24C1D",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        280.0,
+        285.0
+      ],
+      "p2": [
+        350.0,
+        295.0
+      ]
+    },
+    {
+      "type": "LINE",
+      "id": "463EA834",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "start": [
+        280.0,
+        290.0
+      ],
+      "end": [
+        350.0,
+        290.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "B2766370",
+      "layer": "WINDOWS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        385.0,
+        40.0
+      ],
+      "p2": [
+        395.0,
+        90.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "9C8DD26F",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        50.0,
+        70.0
+      ],
+      "p2": [
+        150.0,
+        100.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "0E967A68",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        70.0,
+        110.0
+      ],
+      "p2": [
+        130.0,
+        140.0
+      ]
+    },
+    {
+      "type": "RECT",
+      "id": "C94DCC4E",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        80.0,
+        205.0
+      ],
+      "p2": [
+        140.0,
+        270.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "F580EB85",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        95.0,
+        255.0
+      ],
+      "radius": 8.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "9ACEBA39",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        125.0,
+        255.0
+      ],
+      "radius": 8.0
+    },
+    {
+      "type": "RECT",
+      "id": "AD22D68E",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        280.0,
+        205.0
+      ],
+      "p2": [
+        340.0,
+        270.0
+      ]
+    },
+    {
+      "type": "CIRCLE",
+      "id": "751623BA",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        180.0,
+        70.0
+      ],
+      "radius": 22.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "BFAFCC4C",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        212.0,
+        70.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "37ACF426",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        180.0,
+        102.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "6ACA423A",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        148.0,
+        70.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "CIRCLE",
+      "id": "2A0EAF74",
+      "layer": "FURNITURE",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "center": [
+        180.0,
+        38.0
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "TEXT",
+      "id": "6FCC0174",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "LIVING & DINING ROOM",
+      "pos": [
+        60.0,
+        40.0
+      ],
+      "height": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "EBA8733B",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "MASTER BEDROOM",
+      "pos": [
+        70.0,
+        220.0
+      ],
+      "height": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "FCB4EC93",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "BEDROOM 2",
+      "pos": [
+        270.0,
+        220.0
+      ],
+      "height": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "4EBCEA1B",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "KITCHEN",
+      "pos": [
+        280.0,
+        60.0
+      ],
+      "height": 10.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "TEXT",
+      "id": "0FA47485",
+      "layer": "TEXT",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "text": "BATH",
+      "pos": [
+        280.0,
+        145.0
+      ],
+      "height": 8.0,
+      "rotation_deg": 0.0
+    },
+    {
+      "type": "DIMENSION",
+      "id": "5B74A191",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        0.0,
+        0.0
+      ],
+      "p2": [
+        400.0,
+        0.0
+      ],
+      "offset": -30.0,
+      "text": "400.00 mm"
+    },
+    {
+      "type": "DIMENSION",
+      "id": "CBC6197C",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        0.0,
+        0.0
+      ],
+      "p2": [
+        0.0,
+        300.0
+      ],
+      "offset": 30.0,
+      "text": "300.00 mm"
+    },
+    {
+      "type": "DIMENSION",
+      "id": "EB436D96",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        0.0,
+        300.0
+      ],
+      "p2": [
+        220.0,
+        300.0
+      ],
+      "offset": 20.0,
+      "text": "220.00 mm"
+    },
+    {
+      "type": "DIMENSION",
+      "id": "50EA8667",
+      "layer": "DIMENSIONS",
+      "color": "BYLAYER",
+      "line_width": 1.0,
+      "line_type": "CONTINUOUS",
+      "p1": [
+        220.0,
+        300.0
+      ],
+      "p2": [
+        400.0,
+        300.0
+      ],
+      "offset": 20.0,
+      "text": "180.00 mm"
+    }
+  ]
+}
